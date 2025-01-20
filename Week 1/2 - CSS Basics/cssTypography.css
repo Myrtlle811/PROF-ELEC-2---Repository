@@ -1,0 +1,67 @@
+/* 
+    Naming Conventions : 
+        Khebab Casing --> font-family-size
+        Camel Casing --> fontFamilySize
+*/
+
+/* Setting fonts locally */
+/* The other fonts are fallback fonts, when the first fonts don't work, the remaining with take charge */
+/* .font-family-size {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+} */
+
+/* If we want to dl a new font online */
+/* Website used is from Google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Kalnia+Glaze:wght@100..700&display=swap');
+
+.font-family-size {
+  font-family: "Kalnia Glaze", serif;
+  font-size: 33px;
+}
+
+.bold {
+    font-weight: bolder;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.underline {
+    text-decoration: overline dashed;
+}
+
+.center-align {
+    text-align: center;
+}
+
+.line-through {
+    text-decoration: line-through;
+}
+
+.line-height {
+    line-height: 5cm
+}
+
+.letter-spacing {
+    letter-spacing: 5px;
+    word-spacing: 3cap;
+    text-transform: capitalize;
+    text-indent: 5dvb;
+}
+
+.text-shadow {
+    /* 
+    1st value = horizontal (x)
+    2nd value = vertical (y)
+    3rd value = blur effect/blur radius
+    */
+    text-shadow: 5px -5px 0 blueviolet;
+}
+
+.text-overflow {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    width: 100px;
+}

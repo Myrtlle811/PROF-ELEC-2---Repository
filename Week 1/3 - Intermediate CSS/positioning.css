@@ -1,0 +1,34 @@
+/* Relative to its original position */
+.relative {
+    background-color: red;
+    position: relative; 
+    top: 10px;
+    left: 20px;
+}
+
+/* Absolute is the child of the Ancestor */
+/* Position is adjusting based on its parent */
+.absolute {
+    background-color: midnightblue;
+    color: beige;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+/* Element is relative to the view port or the whole screen of the page site*/
+.fixed {
+    background-color: burlywood;
+    position: fixed;
+    top: 0px;
+}
+
+/* A combination of relative and fixed */
+/* First, will follow its relative positioning
+    Once it reaches its threshold, it will follow its fixed position 
+*/
+.sticky {
+    background-color: aqua;
+    position: sticky;
+    top: 10px;
+}

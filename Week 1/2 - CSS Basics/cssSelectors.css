@@ -1,0 +1,69 @@
+/* Universal Selectors u * symbol, targets everything in the body*/
+/* Usually placed at the top of the css (cascading style sheet) */
+/* You can also use the keyword html */
+* { 
+    font-size: 20px;
+}
+
+/* Element Selectors have no . at the starting */
+span {
+    color: blueviolet;
+}
+
+/* Class Selectors have . at the beginning */
+.class-name {
+    color: blue;
+}
+ 
+/* ID Selectors use # at the beginning */
+#id-name {
+    color: orange;
+}
+
+/* Attribute Selectors */
+a[href] {
+    color: olive;
+}
+/* If we want to specify the edits of a specific attribue */
+a[href='www.sample.com'] {
+    color: chocolate;
+}
+
+/* Grouping Selector list elements you want to have the same styles */
+h1, .parag, h2 {
+    color: crimson;
+}
+
+/* Descendant Selector using div (parent), elements under it are their children */
+.ancestor {
+    font-weight: bold;
+}
+.ancestor h3 {
+    color: turquoise;
+}
+.ancestor p {
+    color: magenta;
+}
+
+/* Pseudo Classes uses : to add effects only if there are actions envoked on an element */
+button:hover {
+    background-color: cornflowerblue;
+    color: beige;
+}
+.pseudo:visited {
+    color: darksalmon;
+}
+
+/* Pseudo Elements uses :: */
+#pseudo-element::after {
+    content: " This is a paragraph after.";
+    color: pink;
+}
+
+#id {
+    color: rgb(136, 111, 111);
+}
+
+.class {
+    color: blue;
+}

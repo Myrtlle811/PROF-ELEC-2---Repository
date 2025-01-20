@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Forms</title>
+</head>
+<body>
+    <!-- Forms are important to get info from users -->
+    <h1>Creating Forms</h1>
+    <form action="" method="post">
+        <!-- Basic input fields -->
+        <div>
+            <label for="fullname-id">Fullname: </label>
+            <input type="text" name="user-fullname" id="fullname-id" placeholder="John Doe" required>
+        </div>
+        <div>
+            <label for="email-id">Email: </label>
+            <input type="email" name="user-email" id="email-id" placeholder="john.doe@email.com" required>
+        </div>
+        <div>
+            <label for="password-id">Password: </label>
+            <input type="password" name="user-password" id="password-id" placeholder="********" required>
+        </div>
+        <div>
+            <label for="age-id">Age: </label>
+            <input type="number" name="user-age" id="age-id" placeholder="00" required min="18" max="100">
+        </div>
+
+        <!-- Radio Buttons, Checkbox, Options -->
+        
+        <!-- Dropdown -->
+         <div>
+            <label for="gender-id">Gender: </label>
+            <select name="user-gender" id="gender-id">
+                <option value="female">Female</option>
+                <option value="male">Male</option>
+                <option value="none">Prefer not to say</option>
+            </select>
+         </div>
+
+         <!-- Radio -->
+         <div>
+            <input type="radio" name="user-profile" id="private-id" value="private">
+            <label for="private-id">Private </label>
+            <input type="radio" name="user-profile" id="public-id" value="public">
+            <label for="public-id">Public </label>
+         </div>
+
+         <!-- Checkbox -->
+         <div>
+            <input type="checkbox" name="options" id="option1" value="private">
+            <label for="option1">Option 1 </label>
+            <input type="checkbox" name="options" id="option2" value="private">
+            <label for="option2">Option 2 </label>
+         </div>
+
+         <!-- Button Submit vs Input Submit -->
+         <button type="submit">Submit</button>
+         <input type="submit" value="submit">
+    </form>
+
+</body>
+</html>

@@ -1,0 +1,72 @@
+/* using px */
+.gridContainer {
+    display: grid;
+    /* the number of columns, and set its width */
+    grid-template-columns: 200px 200px 200px;
+    /* the number of rows, and set its height */
+    grid-template-rows: 200px 200px;
+}
+ 
+/* Using auto -> adjust based on the view port */
+.gridContainer {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+/* Using % */
+.gridContainer {
+    display: grid;
+    grid-template-columns: 33.33% 33.33% 33.33%; 
+}
+
+/* Using fr -> fraction, to make it more precise */
+.gridContainer {
+    display: grid;
+    /* grid-template-columns: 1fr 1fr 1fr; is similar below, for more readability */
+    /* DRY -> Don't Repeat Yourself */
+    grid-template-columns: repeat(3, 1fr);
+}
+
+/* Column n Row Gaps */
+.gridContainer {
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+}
+
+.gridItem1 {
+    /* row-start / column-start / row-end / column-end */
+    grid-area: 2 / 2 / 3 / 4;
+}
+
+/* Media Queries */
+  /*
+      Mobile Devices: Less than 481px
+      iPads, Tablets: 481px - 768px
+      Small Screens, Laptops: 769px - 1024px
+      Desktops, Large Screens: 1025px - 1200px
+      Extra Large Screens, TV: 1201px and greater
+  */
+
+  /* Media Queries for Large Screens */
+  @media screen and (min-width: 1025px) {
+    .gridContainer {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+    }
+  }
+
+  /* Media Queries for Meduim Screens */
+  @media screen and (min-width: 481px) and (max-width: 1024px) {
+    .gridContainer {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+  }
+
+  /* Media Queries for Small Screens */
+  @media screen and (max-width: 480px) {
+    .gridContainer {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+  }
