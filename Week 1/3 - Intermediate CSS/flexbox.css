@@ -7,17 +7,16 @@
     Note, for multiple effects, the last one will be the one to be implemented  */
     /* other justify-content: */
     /* justify-content: flex-end; */
-    justify-content: center;
+    /* justify-content: center; */
     /* justify-content: space-between; */
     /* justify-content: space-evenly; */
-    /* justify-content: flex-start; */
+    justify-content: flex-start;
     
     /* For the column position of the elements  */
     /* align-items: flex-start; */
     /* align-items: flex-end; */
     /* align-items: center; */
     align-items: stretch;
-   
 
     /* For flexibility/accessibility for multiple devices
     Goal is for the website to be responsive 
@@ -25,8 +24,8 @@
     other flex-wrap:
     */
     /* flex-wrap: nowrap; */
-    /* flex-wrap: wrap-reverse; */
-    flex-wrap: wrap;
+    flex-wrap: wrap-reverse;
+    /* flex-wrap: wrap; */
 }
 
 /* Adjusting an item at a time */

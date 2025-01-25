@@ -24,11 +24,11 @@
 }
 
 .italic {
-    font-style: italic;
+    font-style: oblique;
 }
 
 .underline {
-    text-decoration: overline dashed;
+    text-decoration: underline double;
 }
 
 .center-align {
@@ -36,17 +36,17 @@
 }
 
 .line-through {
-    text-decoration: line-through;
+    text-decoration: line-through double;
 }
 
 .line-height {
-    line-height: 5cm
+    line-height: 5cm;
 }
 
 .letter-spacing {
-    letter-spacing: 5px;
-    word-spacing: 3cap;
-    text-transform: capitalize;
+    letter-spacing: 10px;
+    word-spacing: 30px;
+    text-transform: lowercase;
     text-indent: 5dvb;
 }
 
@@ -56,12 +56,13 @@
     2nd value = vertical (y)
     3rd value = blur effect/blur radius
     */
-    text-shadow: 5px -5px 0 blueviolet;
+    text-shadow: 5px 5px 5px blueviolet;
 }
 
 .text-overflow {
     white-space: nowrap;
-    text-overflow: ellipsis;
     overflow: hidden;
+    text-overflow: ellipsis;
     width: 100px;
+    text-align: justify;
 }

@@ -1,7 +1,7 @@
 /* Universal Selectors u * symbol, targets everything in the body*/
 /* Usually placed at the top of the css (cascading style sheet) */
 /* You can also use the keyword html */
-* { 
+html { 
     font-size: 20px;
 }
 

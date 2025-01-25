@@ -1,9 +1,9 @@
 /* Specifying each padding size */
 .box1 {
-    padding-top: 100px;
+    padding-top: 10px;
     padding-right: 20px;
     padding-bottom: 30px;
-    padding-left: 40px;
+    padding-left: 40px; 
 }
 
 /* Shorthand method for padding, if
@@ -13,7 +13,7 @@
     4 values -> top || right || bottom || left
 */
 .box2 {
-    padding: 10px 5px 20px 30px;
+    padding: 10px 50px 50px 20px;
 }
 
 /* Specifying each margin size */
@@ -36,8 +36,8 @@
 
 /* Specifying the attributes for borders */
 .mix-borders {
-    border-style: double;
-    border-width: 2px;
+    border-style: dotted;
+    border-width: bolder;
 }
 
 /* Shorthand for borders 
@@ -50,9 +50,9 @@
 
 .circle-container {
     border: solid 2px green;
-    border-radius: 100%;
+    border-radius: 25%;
     height: 100px;
-    width: 100px;
+    width: 250px;
     border-top: dotted 5px;
     border-right: dashed 2px blue;
     border-left: salmon double;

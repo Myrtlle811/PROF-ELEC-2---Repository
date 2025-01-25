@@ -1,11 +1,16 @@
 .color-example {
-    background-color: rgba(0, 255, 255, 0);
+    background-color: rgba(167, 99, 11, 0.9);
 } 
 
 .background-example {
     background-image: url('flower.png');
     height: 300px;
     width: 300px;
-    background-position: right;
-    opacity: 1;
+    background-position: center;
+    opacity: 0.5;
 }
+
+/* .background-position-example {
+    background-image: url('image1.jpg');
+    mask-repeat: round;
+} */
