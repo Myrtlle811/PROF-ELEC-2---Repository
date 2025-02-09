@@ -70,13 +70,13 @@ console.log(greet("Mario"))
 // uses flat arrows (=>)
 // () houses the parameter, () and {} is optional if there is only 1 parameter or one line of command
 const greetModern = name => "Hello, " + name;
-const sum = (x, y) => {
+const sum = (x, y = 7) => {
     console.log("Calculating the sum...");
     return x + y;
 }
 
 console.log(greetModern("John2"));
-console.log(sum(2, 2));
+console.log(sum(2));
 
 
 /* -- TEMPLATE LITERALS -- */
@@ -92,6 +92,7 @@ console.log(`Hi, my name is ${name}. I am ${age} years old.`);
 // getting multiple values from a single variable and initializing them to individual variables
 // Array
 let numbers = [1, 2, 3, 4, 5];
+console.log(numbers);
 
 let [first, second, third, fourth, fifth, sixth] = numbers;
 console.log(`${first}, ${second}, ${third}, ${fourth}, ${fifth}, ${sixth}`);
@@ -114,7 +115,7 @@ console.log(`${firstNum}, ${secondNum}, ${thirdNum}`);
 // Destructuring with default values
 const painting = {
     artist: "Michelangelo",
-    // year: 1550,
+    year: 1550,
     dimensions: "400 x 200"
 }
 
