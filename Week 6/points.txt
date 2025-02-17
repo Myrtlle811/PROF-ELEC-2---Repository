@@ -1,0 +1,34 @@
+React Website: https://react.dev/
+
+React is not a framework, but uses UI Components, a front-end language (level up than HTML).
+
+SRC is the folder that contains the source file of our app file.
+
+Component -> custom element that can be added in a layout, we can make out own tags that can contain its own functions. Commonly starts with a capital letter.
+
+JSX -> can be put in a singular functions, put the look and the functionality in one place
+
+React can also be added to other HTML to add more functionality.
+
+React is a library, can also be an add on to other frameworks. 
+
+NPX -> Node package execute, use to run customs libraries for customs node. 
+
+NPM -> node package manager, responsible for managing and running our react code
+
+Create-react-app -> states that we are to make a react project
+
+the index.js -> rendering our javascript and html files in
+
+React.StrictMode -> allows us to easily detect bugs in our codes.
+
+Importing n Exporting in react 
+    1. import keyword is the require in node, new way in importing files from external sources
+    2. export keyword allows use to print or export the codes in that file
+
+To add style in our react base, we simply use CSS by importing it to our source file.
+
+JSX -> stands for JavaScript XML, a syntax extension primarily used with React, to write HTML-like code directly within JavaScript
+    -> we can have access to components
+
+useEffect Hook -> a React hook that run something in the background of the website
