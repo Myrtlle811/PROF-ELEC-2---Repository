@@ -9,7 +9,7 @@
 import React from "react";
 
 const ConditionalRendering = () => {
-  const isUserLoggedIn = true;
+  const isUserLoggedIn = false;
 
   return (
     <div>

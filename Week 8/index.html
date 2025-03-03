@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>XML with XPath and XSL</title>
+</head>
+<body onload="transformXML()">
+        <h1>XML with XPath and XSLT</h1>
+    
+        <h2>Transformed XML Table</h2>
+        <div id="output"></div>
+    
+        <h2>XPath Query</h2>
+        <input type="text" id="xpathQuery" placeholder="Enter XPath (e.g., //title)" />
+        <button onclick="queryXML()">Run Query</button>
+        <div id="queryOutput"></div>
+    <script src="books.js"></script>
+</body>
+</html>

@@ -11,7 +11,7 @@ import React from "react";
 
 const ListRendering = () => {
   // Create an array of user names
-  const userList = ["Anne", "Kate", "Francis"];
+  const userList = ["Anne", "Kate", "Francis", "Sevvy", "Marcos"];
 
   // Return JSX to render the component
   return (

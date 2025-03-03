@@ -24,7 +24,7 @@ const App = () => {
       {/* <Starting /> */}
       <h1>{greeting}</h1>
       <p>React is a JS Library for building UIs.</p>
-      {/* <Welcome name="Dennis" /> */}
+      {/* <Welcome name="John Doe" /> */}
       {/* <ListRendering /> */}
       {/* <ConditionalRendering /> */}
       {/* <Hooks /> */}
