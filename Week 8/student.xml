@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<studentDatabase>
+    <student studentID="1" gradeLevel="BSA 1" enrollmentStatus="Enrolled">
+        <name>Anne Curtis</name>
+        <age>19</age>
+    </student>
+    <student studentID="2" gradeLevel="BSBio 4" enrollmentStatus="Withdrawn">
+        <name>William Smith</name>
+        <age>24</age>
+    </student>
+    <student studentID="3" gradeLevel="BSCE 2" enrollmentStatus="Enrolled">
+        <name>Kim Taehyung</name>
+        <age>21</age>
+    </student>
+</studentDatabase>
+
+

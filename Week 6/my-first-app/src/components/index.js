@@ -1,4 +1,5 @@
 export { default as Starting } from "./Starting";
+export { default as Greetings } from "./Greetings";
 export { default as Welcome } from "./Welcome";
 export { default as ListRendering } from "./ListRendering";
 export { default as ConditionalRendering } from "./ConditionalRendering";

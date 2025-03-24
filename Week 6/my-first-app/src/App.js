@@ -9,6 +9,7 @@ import "./App.css";
 import {
   Starting,
   Welcome,
+  Greetings,
   ListRendering,
   ConditionalRendering,
   Hooks,
@@ -21,15 +22,16 @@ const App = () => {
 
   return (
     <div className="App">
+      <Greetings name="Kim" />
       {/* <Starting /> */}
-      <h1>{greeting}</h1>
-      <p>React is a JS Library for building UIs.</p>
+      {/* <h1>{greeting}</h1>
+      <p>React is a JS Library for building UIs.</p> */}
       {/* <Welcome name="John Doe" /> */}
       {/* <ListRendering /> */}
       {/* <ConditionalRendering /> */}
       {/* <Hooks /> */}
       {/* <Hooks2 /> */}
-      <LoginForm />
+      {/* <LoginForm /> */}
     </div>
   );
 };
