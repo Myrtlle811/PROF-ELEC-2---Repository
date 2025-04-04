@@ -1,0 +1,20 @@
+[
+  {
+    "userID": "1a521373-653b-49fa-aea5-699479468b82",
+    "firstName": "Michael",
+    "lastName": "Kaiser",
+    "age": 18
+  },
+  {
+    "userID": "6b9e802a-ecb1-470f-9400-51ebb84b67e4",
+    "firstName": "Yuichi",
+    "lastName": "Isagi",
+    "age": 17
+  },
+  {
+    "userID": "f7be8dc0-2298-4850-81a1-ce7240df7f1d",
+    "firstName": "Meguru",
+    "lastName": "Bachira",
+    "age": 16
+  }
+]

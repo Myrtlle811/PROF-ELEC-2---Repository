@@ -13,7 +13,7 @@ fs.readFile("example.txt", "utf-8", (err, data) => {
 });
 
 // Write files
-const content = "I am adding a new content to this text file.";
+const content = "This is a newer content!";
 
 fs.writeFile("output.txt", content, "utf-8", (err) => {
   if (err) {
@@ -65,17 +65,17 @@ fs.unlink("output.txt", (err) => {
   console.log("File Deleted Successfully!");
 });
 
-// Remove directories (empty)
-fs.rmdir("newDirectory2", (err) => {
-  if (err) {
-    console.error(err);
-    return;
-  }
-  console.log("Folder removed!");
-});
+// // Remove directories (empty)
+// fs.rmdir("newDirectory2", (err) => {
+//   if (err) {
+//     console.error(err);
+//     return;
+//   }
+//   console.log("Folder removed!");
+// });
 
 // Remove directories and contained files
-fs.rmSync("newdirectory", { recursive: true, force: true }, (err) => {
+fs.rmSync("newDirectory", { recursive: true, force: true }, (err) => {
   if (err) {
     console.error(err);
     return;
